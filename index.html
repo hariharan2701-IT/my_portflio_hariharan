@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio-hariharan</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Hari Haran</a>
+        <nav>
+            <a href="#" class="active" id="home-link">Home</a>
+            <a href="#skills-section" id="skills-link">Skills</a>
+            <a href="#" id="education-link">Education</a>
+            <a href="#" id="contact-link">Contact Me</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="./IMG_1064-removebg.png" alt="my img">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Hari Haran</span></h1>
+            <h3 class="typing-text">As a <span id="dynamic-text">Web Developer</span></h3>
+            <p class="bold"> And The final-year IT student with a strong front-end development foundation, I thrive on
+                innovation and rapid learning. My keen eye for detail and relentless drive to excel
+                push the boundaries of technology, making me an exceptional asset in the tech
+                industry.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/hari-haran-k-002ba9285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/hariharan2701-IT" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://wa.me/7708554879" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/your-profile" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="mailto:hariharan.k0104@gmail.com?subject=Hiring Inquiry&body=Hello%20Hari%20Haran,%0D%0A%0D%0AI%20am%20interested%20in%20hiring%20you.%20Please%20get%20back%20to%20me%20at%20your%20earliest%20convenience.%0D%0A%0D%0AThank%20you!" class="btn">Hire me</a>
+            <a href="./hariharan final Resume.pdf" class="btn download-resume" target="_blank">Download Resume</a>
+            
+        </div>
+    </section>
+
+    <section id="skills-section" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-icons">
+            <div class="skill">
+                <i class="fab fa-html5"></i>
+                <p>HTML 5</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-css3-alt"></i>
+                <p>CSS 3</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-js"></i>
+                <p>JavaScript</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-react"></i>
+                <p>React</p>
+            </div>
+           
+        </div>
+    </section>
+
+    <script>
+        const texts = ["Web Developer", "Web Designer", "React Developer"];
+        let index = 0;
+        
+        function changeText() {
+            const dynamicText = document.getElementById('dynamic-text');
+            index = (index + 1) % texts.length;
+            dynamicText.textContent = texts[index];
+        }
+        
+        setInterval(changeText, 3000);
+    </script>
+</body>
+</html>
