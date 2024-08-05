@@ -33,7 +33,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1rem 9%;
+    padding: 1rem 5%;
     background-color: black;
     display: flex;
     justify-content: space-between;
@@ -79,11 +79,6 @@ nav a.active {
     border-bottom: 3px solid #4b74b7;
 }
 
-#-link:hover {
-    color: #b74bb7;
-    border-bottom: 3px solid #b74bb7;
-}
-
 #contact-link:hover {
     color: #b7b74b;
     border-bottom: 3px solid #b7b74b;
@@ -95,15 +90,15 @@ nav a.active {
     font-size: 1.6rem;
     color: #fef5f5;
     background-color: rgb(183, 75, 75);
-    margin: 2rem auto; /* Center horizontally with auto margins */
-    padding: 1rem 2rem; /* Adjusted padding for more compact appearance */
+    margin: 2rem auto;
+    padding: 1rem 2rem;
     border-radius: 0.5rem;
     cursor: pointer;
     transition: 0.3s;
-    max-width: 300px; /* Limit the maximum width */
-    text-align: center; /* Center text inside the button */
-    font-family: 'Poppins', sans-serif; /* Apply Poppins font */
-    font-weight: 700; /* Make text bold */
+    max-width: 300px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }
 
 .btn:hover {
@@ -118,14 +113,13 @@ nav a.active {
     background-color: #f6f2f2;
     color: #000000;
     text-align: center;
-    margin-top: -70px;
-    padding: 9rem 30%;
+    padding: 9rem 5%;
 }
 
 .skills h2 {
     font-size: 4rem;
     margin-bottom: 8rem;
-      position: relative;
+    position: relative;
     display: inline-block;
 }
 
@@ -143,7 +137,7 @@ nav a.active {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 13rem;
+    gap: 2rem;
 }
 
 .skill {
@@ -170,47 +164,48 @@ nav a.active {
 }
 
 .skill i.fa-html5:hover {
-    color: #000000; /* Red color */
-    text-shadow: 0 0 10px #d94820, 0 0 20px #d94820, 0 0 30px #d94820; /* Red lighting effect */
+    color: #000000;
+    text-shadow: 0 0 10px #d94820, 0 0 20px #d94820, 0 0 30px #d94820;
 }
 
-.skill i.fa-css3-alt:hover{
-    color: #000000; /* yellow color */
-    text-shadow: 0 0 10px #001cbb, 0 0 20px #001cbb , 0 0 30px ; /* yellow lighting effect */
+.skill i.fa-css3-alt:hover {
+    color: #000000;
+    text-shadow: 0 0 10px #001cbb, 0 0 20px #001cbb, 0 0 30px #001cbb;
 }
 
-.skill i.fa-js:hover{
-    color: #000000; /* dark blue */
-    text-shadow: 0 0 10px #ffdc15, 0 0 20px #ffdc15, 0 0 30px #ffdc15; /* dark blue lighting effect */
+.skill i.fa-js:hover {
+    color: #000000;
+    text-shadow: 0 0 10px #ffdc15, 0 0 20px #ffdc15, 0 0 30px #ffdc15;
 }
-.skill i.fa-react:hover{
-    color: #1119f3; /* Red color */
-    text-shadow: 0 0 10px #53a2ec, 0 0 20px #53a2ec, 0 0 30px #53a2ec; /* Red lighting effect */
+
+.skill i.fa-react:hover {
+    color: #1119f3;
+    text-shadow: 0 0 10px #53a2ec, 0 0 20px #53a2ec, 0 0 30px #53a2ec;
 }
+
 .skill i.fa-python:hover {
-    color: #fff52f; /* Python blue color */
-    text-shadow: 0 0 10px #FFD43B, 0 0 20px #271f01, 0 0 30px #01010d; /* Python yellow lighting effect */
+    color: #fff52f;
+    text-shadow: 0 0 10px #FFD43B, 0 0 20px #271f01, 0 0 30px #01010d;
 }
+
 .skill i.fa-github:hover {
-    color: #d2d2d2; /* Python blue color */
-    text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #000000; /* Python yellow lighting effect */
+    color: #d2d2d2;
+    text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #000000;
 }
 
 .skill i.fa-git-alt:hover {
-    color: #e8843c; /* Python blue color */
-    text-shadow: 0 0 10px #070400, 0 0 20px #000000eb, 0 0 30px #000000; /* Python yellow lighting effect */
+    color: #e8843c;
+    text-shadow: 0 0 10px #070400, 0 0 20px #000000eb, 0 0 30px #000000;
 }
 
-
-
-
 /* Home Section */
-.home {r
+.home {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8rem;
     background-color: black;
+    padding: 5rem 5%;
 }
 
 .home .home-content h1 {
@@ -234,25 +229,25 @@ span {
 }
 
 .home-img {
-    display: flex; /* Ensure the container is flexible */
+    display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
 }
 
 .home-img img {
-    width: 100vw; /* Adjusted base width */
-    max-width: 400px; /* Ensure it doesn't get too large on larger screens */
-    height: auto; /* Maintain aspect ratio */
+    width: 32vw;
+    max-width: 400px;
+    height: auto;
     border-radius: 50%;
-    box-shadow: 0 0 25px rgba(183, 75, 75, 0.8); /* Pink shadow for the lighting effect */
+    box-shadow: 0 0 25px rgba(183, 75, 75, 0.8);
     cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .home-img img:hover {
-    transform: scale(2.0); /* Slightly enlarge the image on hover */
-    box-shadow: 0 0 35px rgba(183, 75, 75, 1); /* Intensified pink shadow for hover effect */
+    transform: scale(1.1);
+    box-shadow: 0 0 35px rgba(183, 75, 75, 1);
 }
 
 .social-icons {
@@ -286,7 +281,7 @@ span {
 /* Responsive Styles */
 @media (max-width: 995px) {
     header {
-        padding: 1rem 5%;
+        padding: 1rem 2%;
     }
 
     nav {
@@ -326,8 +321,8 @@ span {
     }
 
     .home-img img {
-        width: 70vw; /* Adjusted for responsiveness */
-        box-shadow: 0 0 25px rgba(183, 75, 75, 0.8); /* Pink shadow for the lighting effect */
+        width: 70vw;
+        box-shadow: 0 0 25px rgba(183, 75, 75, 0.8);
     }
 
     .home-content h1 {
@@ -421,7 +416,7 @@ span {
     }
 
     .home-img img {
-        width: 80vw; /* Adjusted for responsiveness */
+        width: 80vw;
     }
 
     .home-content h1 {
@@ -466,7 +461,7 @@ span {
 
 section {
     min-height: 100vh;
-    padding: 5rem 9%;
+    padding: 5rem 5%;
 }
 
 .home {
@@ -475,6 +470,7 @@ section {
     align-items: center;
     gap: 8rem;
     background-color: black;
+    padding: 5rem 5%;
 }
 
 .home .home-content h1 {
@@ -505,11 +501,11 @@ span {
 }
 
 .home-img img {
-    width: 32vw; /* Adjusted base width */
-    max-width: 400px; /* Ensure it doesn't get too large on larger screens */
-    height: auto; /* Maintain aspect ratio */
+    width: 32vw;
+    max-width: 400px;
+    height: auto;
     border-radius: 50%;
-    box-shadow: 0 0 25px rgba(183, 75, 75, 0.8); /* Pink shadow for the lighting effect */
+    box-shadow: 0 0 25px rgba(183, 75, 75, 0.8);
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
