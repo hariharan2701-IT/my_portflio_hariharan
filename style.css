@@ -79,7 +79,7 @@ nav a.active {
     border-bottom: 3px solid #4b74b7;
 }
 
-#education-link:hover {
+#-link:hover {
     color: #b74bb7;
     border-bottom: 3px solid #b74bb7;
 }
@@ -119,13 +119,13 @@ nav a.active {
     color: #000000;
     text-align: center;
     margin-top: -70px;
-    padding: 5rem 9%;
+    padding: 9rem 30%;
 }
 
 .skills h2 {
     font-size: 4rem;
-    margin-bottom: 2rem;
-    position: relative;
+    margin-bottom: 8rem;
+      position: relative;
     display: inline-block;
 }
 
@@ -143,14 +143,14 @@ nav a.active {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 4rem;
+    gap: 13rem;
 }
 
 .skill {
     display: flex;
     flex-direction: column;
     align-items: center;
-    transition: transform 0.3s ease;
+    transition: transform 0.7s ease;
 }
 
 .skill i {
@@ -166,7 +166,7 @@ nav a.active {
 }
 
 .skill:hover {
-    transform: scale(2.4);
+    transform: scale(2.5);
 }
 
 .skill i.fa-html5:hover {
@@ -176,22 +176,36 @@ nav a.active {
 
 .skill i.fa-css3-alt:hover{
     color: #000000; /* yellow color */
-    text-shadow: 0 0 10px #f3d00d, 0 0 20px #f3d00d, 0 0 30px #f3d00d; /* yellow lighting effect */
+    text-shadow: 0 0 10px #001cbb, 0 0 20px #001cbb , 0 0 30px ; /* yellow lighting effect */
 }
 
 .skill i.fa-js:hover{
     color: #000000; /* dark blue */
-    text-shadow: 0 0 10px #072af0, 0 0 20px #072af0, 0 0 30px #072af0; /* dark blue lighting effect */
+    text-shadow: 0 0 10px #ffdc15, 0 0 20px #ffdc15, 0 0 30px #ffdc15; /* dark blue lighting effect */
 }
 .skill i.fa-react:hover{
-    color: #000000; /* Red color */
-    text-shadow: 0 0 10px #93BEE6, 0 0 20px #93BEE6, 0 0 30px #93BEE6; /* Red lighting effect */
+    color: #1119f3; /* Red color */
+    text-shadow: 0 0 10px #53a2ec, 0 0 20px #53a2ec, 0 0 30px #53a2ec; /* Red lighting effect */
 }
+.skill i.fa-python:hover {
+    color: #fff52f; /* Python blue color */
+    text-shadow: 0 0 10px #FFD43B, 0 0 20px #271f01, 0 0 30px #01010d; /* Python yellow lighting effect */
+}
+.skill i.fa-github:hover {
+    color: #d2d2d2; /* Python blue color */
+    text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #000000; /* Python yellow lighting effect */
+}
+
+.skill i.fa-git-alt:hover {
+    color: #e8843c; /* Python blue color */
+    text-shadow: 0 0 10px #070400, 0 0 20px #000000eb, 0 0 30px #000000; /* Python yellow lighting effect */
+}
+
 
 
 
 /* Home Section */
-.home {
+.home {r
     display: flex;
     justify-content: center;
     align-items: center;
@@ -227,7 +241,7 @@ span {
 }
 
 .home-img img {
-    width: 32vw; /* Adjusted base width */
+    width: 100vw; /* Adjusted base width */
     max-width: 400px; /* Ensure it doesn't get too large on larger screens */
     height: auto; /* Maintain aspect ratio */
     border-radius: 50%;
@@ -237,7 +251,7 @@ span {
 }
 
 .home-img img:hover {
-    transform: scale(1.1); /* Slightly enlarge the image on hover */
+    transform: scale(2.0); /* Slightly enlarge the image on hover */
     box-shadow: 0 0 35px rgba(183, 75, 75, 1); /* Intensified pink shadow for hover effect */
 }
 
