@@ -219,10 +219,12 @@ span {
 
 .skills-icons {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 3rem 2rem;
   justify-items: center;
+  padding-bottom: 4rem;
 }
+
 
 .skill {
   display: flex;
